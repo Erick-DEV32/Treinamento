@@ -11,7 +11,7 @@ namespace aula_do_youtube_01
         public void Sendnotifications(List<string> list) 
         {   //metodo 1 
 
-            foreach (var item in list) // Cria uma variavel em tempo de execução, é para cada indice que ele encontrar na lista ele adicona dentro da variavél
+            foreach (var item in list) // Cria uma variavel em tempo de execução é para cada indice que ele encontrar na lista ele adicona dentro da variavél
             {
 
                 Console.WriteLine("Inventation to the PARTY sent - " + item);
